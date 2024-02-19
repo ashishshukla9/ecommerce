@@ -8,15 +8,32 @@ header {
 header .headerSearch {
     width: 100%;
     height: 40px;
-    border: 1px solid #3bb77e;
+    border: 1px solid #bce3c9;
     padding: 10px 15px;
 }
 
 header .headerSearch .selectDrop {
-    width: 20%;
+    width: 30%;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    /* padding-right:30px; */
 }
+
+header .headerSearch .selectDrop:after {
+    content: '';
+    width: 1px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 header .headerSearch .search {
-    width: 80%;
+    width: 70%;
+    padding-left: 30px;
+    position: relative;
 }
 
 header .headerSearch .search input {
@@ -24,4 +41,13 @@ header .headerSearch .search input {
     height: 37px;
     border: 0px;
     outline: none !important;
+    font-size: 16px;
+}
+
+header .headerSearch .search .searchIcon {
+    position: absolute !important;
+    top: 5px;
+    right: 0px;
+    opacity: 0.5;
+    font-size: 28px !important;
 }
