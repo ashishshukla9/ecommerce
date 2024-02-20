@@ -13,7 +13,7 @@ header .headerSearch {
 }
 
 header .headerSearch .selectDrop {
-    width: 30%;
+    /* width: 30%; */
     font-size: 16px;
     font-weight: 500;
     position: relative;
@@ -50,4 +50,8 @@ header .headerSearch .search .searchIcon {
     right: 0px;
     opacity: 0.5;
     font-size: 28px !important;
+}
+
+.countryWrapper{
+    width:200px !important;
 }
